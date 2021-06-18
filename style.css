@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(114, 142, 231);
+    font-family: 'Lora', serif;
+
+}
+#headerdiv{
+    background-color: white;
+
+}
+#headerdiv h1{
+    color: darkgreen;
+}
+#headerdiv img{
+    width: 100px;
+}
+.maindiv{
+    background-color: rgb(87, 224, 98);
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+.maindiv label{
+    width: 300px;
+    background-color:coral ;
+    padding: 10px;
+    box-shadow: 5px 5px 20px white;
+    border-radius: 10px;
+    margin-bottom: 0%;
+}
+
+#camera,#snapshot{
+    border: 2px dotted white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 15px white;
+}
+
+
+.maindiv button{
+    width: 300px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 18px white;
+}
+
+#outputdiv{
+    margin-bottom: 50px;
+    
+}
+
+#outputdiv h4{
+    background-color:white ;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: white 5px 5px 18px;
+}
+
+#outputdiv img{
+    width: 100px;
+} 
+ 
+#footer{
+    position: fixed;
+    bottom:0;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    color:white;
+    line-height: 2;
+}
